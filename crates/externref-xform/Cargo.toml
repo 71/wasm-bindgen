@@ -13,7 +13,7 @@ edition = '2018'
 
 [dependencies]
 anyhow = "1.0"
-walrus = { git = "https://github.com/nokotan/walrus", branch = "dwarf-code-address-mapping" }
+walrus = "0.19"
 
 [dev-dependencies]
 rayon = "1.0"

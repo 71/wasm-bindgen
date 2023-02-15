@@ -10,5 +10,5 @@ description = "Utilities for working with Wasm codegen conventions (usually esta
 edition = "2018"
 
 [dependencies]
-walrus = { git = "https://github.com/nokotan/walrus", branch = "dwarf-code-address-mapping" }
+walrus = "0.19"
 anyhow = "1.0"

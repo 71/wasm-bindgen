@@ -100,3 +100,6 @@ wasm-bindgen = { path = '.' }
 wasm-bindgen-futures = { path = 'crates/futures' }
 js-sys = { path = 'crates/js-sys' }
 web-sys = { path = 'crates/web-sys' }
+
+# See https://github.com/rustwasm/walrus/pull/231
+walrus = { git = "https://github.com/nokotan/walrus", branch = "dwarf-code-address-mapping" }
