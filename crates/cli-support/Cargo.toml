@@ -18,7 +18,7 @@ log = "0.4"
 rustc-demangle = "0.1.13"
 serde_json = "1.0"
 tempfile = "3.0"
-walrus = "0.19.0"
+walrus = { git = "https://github.com/nokotan/walrus", branch = "dwarf-code-address-mapping" }
 wasm-bindgen-externref-xform = { path = '../externref-xform', version = '=0.2.84' }
 wasm-bindgen-multi-value-xform = { path = '../multi-value-xform', version = '=0.2.84' }
 wasm-bindgen-shared = { path = "../shared", version = '=0.2.84' }
@@ -26,6 +26,6 @@ wasm-bindgen-threads-xform = { path = '../threads-xform', version = '=0.2.84' }
 wasm-bindgen-wasm-conventions = { path = '../wasm-conventions', version = '=0.2.84' }
 wasm-bindgen-wasm-interpreter = { path = "../wasm-interpreter", version = '=0.2.84' }
 wit-text = "0.8.0"
-wit-walrus = "0.6.0"
+wit-walrus = { git = "https://github.com/71/wasm-interface-types", package = "wit-walrus" }
 wit-validator = "0.2.0"
 unicode-ident = "1.0.5"
